@@ -28,10 +28,10 @@ keymap("i", "<C-j>", "<Down>", opts)
 keymap("i", "<C-k>", "<Up>", opts)
 keymap("i", "jk", "<Esc>", opts)
 
-vim.cmd [[
-    hi NonText ctermbg=none
-    hi Normal guibg=NONE ctermbg=NONE
-]]
+-- vim.cmd [[
+--     hi NonText ctermbg=none
+--     hi Normal guibg=NONE ctermbg=NONE
+-- ]]
 
 vim.cmd [[
     "" hi Cursor guifg=green guibg=green
